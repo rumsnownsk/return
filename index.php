@@ -10,7 +10,7 @@
 <body>
 <h1>git testing</h1>
 <p>
-    <echo>adfasdf</echo>
+    <echo>Testing is OK</echo>
 </p>
 </body>
 </html>
