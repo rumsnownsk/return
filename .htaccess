@@ -1,0 +1,8 @@
+AddDefaultCharset utf-8
+#Options -Indexes
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-l
+
+RewriteRule ^(.*)$ /public_html/index.php?$1 [L,QSA] # QSA - Query String Appand

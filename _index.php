@@ -10,7 +10,9 @@
 <body>
 <h1>git testing</h1>
 <p>
-    <echo>Testing is OK</echo>
+    Testing is OK
+</p>
+<p>
 </p>
 </body>
 </html>
